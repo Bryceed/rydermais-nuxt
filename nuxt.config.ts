@@ -7,6 +7,8 @@ export default defineNuxtConfig({
     },
     meta: {
         title: 'RyderMais',
+        description: 'RyderMais',
+        keywords: 'RyderMais'
     },
     modules: [
         '@nuxt/content',
@@ -17,7 +19,7 @@ export default defineNuxtConfig({
     },
     markdown: {
         tags: {
-            marquee: 'MyCustomParagraph'
+            marquee: 'MyCustomMarquee'
         },
         remarkPlugins: {
             'remark-emoji': {
