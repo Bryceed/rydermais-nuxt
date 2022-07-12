@@ -1,0 +1,3 @@
+## After done, rename it to ".env" with the "dotenv" dependency installed
+
+## Also, all theses comments lines (starting with ##) need to be removed
